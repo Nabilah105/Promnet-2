@@ -1,0 +1,226 @@
+(ini bagian halaman utama)
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, rgb(109, 119, 123), rgb(69, 81, 86));
+    color: #fffdfd;
+    line-height: 1.8;
+}
+
+.link-atas a {
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(244, 244, 250);
+    margin-left: 20px;
+    transition: 0.3s;
+}
+
+.link-atas a:hover {
+    color: rgb(28, 28, 22);
+    transform: translateY(-3px);
+}
+
+#halo {
+    background: linear-gradient(to bottom, rgb(239, 233, 233), rgb(205, 195, 195));
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.halo-content {
+    background-color: rgb(109, 119, 123);
+    padding: 30px;
+    border-radius: 20px;
+    width: 500px;
+    animation: muncul 1s ease;
+
+}
+
+@keyframes muncul {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+.halo-content a:hover {
+    color: rgb(10, 10, 10);
+    transform: translateY(-3px);
+}
+
+(bagian about)
+#about { 
+    display: flex; 
+    justify-content: center; 
+    padding: 30px;
+}
+
+.about-content {
+    background-color: rgb(69, 81, 86);
+    padding: 30px;
+    border-radius: 20px;
+    width: 500px;
+    animation: muncul 1s ease;
+}
+
+@keyframes muncul {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.about-content h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-content h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-content a:hover {
+    color: rgb(12, 12, 12);
+    transform: translateY(-3px);
+}
+
+(bagian project)
+#project { 
+    display: flex; 
+    justify-content: center; 
+    padding: 30px;
+}
+
+.project-content {
+    background-color: rgb(69, 81, 86);
+    padding: 30px;
+    border-radius: 20px;
+    width: 500px;
+    animation: muncul 1s ease;
+}
+
+@keyframes muncul {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.project-content h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project-content h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project-content a:hover {
+    color: rgb(15, 15, 14);
+    transform: translateY(-3px);
+}
+
+(bagian contact)
+#contact { 
+    display: flex; 
+    justify-content: center; 
+    padding: 30px;
+}
+
+.contact-content {
+    background-color: rgb(69, 81, 86);
+    padding: 30px;
+    border-radius: 20px;
+    width:1000px;
+    animation: muncul 1s ease;
+}
+
+@keyframes muncul {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.contact-content h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-content h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-content a:hover {
+    color: rgb(6, 6, 6);
+    transform: translateY(-3px);
+}
+
+(bagian my-journey)
+#my-journey { 
+    display: flex; 
+    justify-content: center; 
+    padding: 30px;
+}
+
+.my-journey-content {
+    background-color: rgb(69, 81, 86);
+    padding: 30px;
+    border-radius: 20px;
+    width:1000px;
+    animation: muncul 1s ease;
+}
+
+@keyframes muncul {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.my-journey-content h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.my-journey-content h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.my-journey-content a:hover {
+    color: rgb(15, 15, 15);
+    transform: translateY(-3px);
+}
