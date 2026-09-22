@@ -5,113 +5,159 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Contact Me</h1>
- <nav>
-<div class="link-atas">
-<a href="index.html">Home</a> 
-<a href="about.html">About</a>
-<a href="contact.html">Contact</a> 
-<a href="project.html">Project</a> 
-<a href="My-Journey.html">My Journey</a>
- </div>
-  </nav>
+    <!-- Isi halaman -->
+    <h1>Contact Nabilah</h1>
+    <nav>
+      <div class="link-atas">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="project.html">Project</a>
+        <a href="My-Journey.html">My Journey</a>
+      </div>
+    </nav>
     <hr />
-<section id="contact">
-<div class="contact-content">
-    <h2>Informasi kontak</h2>
-    Jika anda ingin berdiskusi atau bekerja sama, silahkan hubungi saya melalui
-    form berikut.
-    <p>
-      Anda juga daoat mengirim email ke
-      <a
-        href="https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=putri.ayu@student.upi.edu"
-        >putri.ayu@student.upi.edu</a
-      >
-    </p>
-    <h2>From Pesan</h2>
-    <form>
-      <table
-        border="1px solid"
-        width="50%"
-        style="border-collapse: collapse; margin: 0 auto"
-      >
-        <tr>
-          <th colspan="2" style="text-align: center; padding: 5px">
-            Form Data Kontak
-          </th>
-        </tr>
-        <tr>
-          <td class="label"><strong>Nama Lengkap:</strong></td>
-          <td class="input">
-            <input type="text" name="nama_lengkap" style="width: 90%" />
-          </td>
-        </tr>
-        <tr>
-          <td class="label"><strong>Email:</strong></td>
-          <td class="input">
-            <input type="email" name="email" style="width: 90%" />
-          </td>
-        </tr>
-        <tr>
-          <td class="label"><strong>Nomor Telepon:</strong></td>
-          <td class="input"><input type="tel" name="nomor_telepon" /></td>
-        </tr>
-        <tr>
-          <td class="label"><strong>Jenis Kelamin:</strong></td>
-          <td class="input">
-            <input type="radio" name="jenis_kelamin" value="Laki-laki" />
-            Laki-laki
-            <input type="radio" name="jenis_kelamin" value="Perempuan" />
-            Perempuan
-          </td>
-        </tr>
-        <tr>
-          <td class="label"><strong>Tanggal Lahir:</strong></td>
-          <td class="input"><input type="date" name="tanggal_lahir" /></td>
-        </tr>
-        <tr>
-          <td class="label"><strong>Topik Pesan:</strong></td>
-          <td>
-            <select name="topik_pesan">
-              <option value="Diskusi">Diskusi</option>
-              <option value="Pertanyaan">Pertanyaan</option>
-              <option value="Kerjasama">Kerjasama</option>
-            </select>
-          </td>
-        </tr>
-        <tr>
-          <td class="label"><strong>Jenis Pesan:</strong></td>
-          <td class="input">
-            <input type="radio" name="jenis_pesan" value="Pertanyaan" />
-            Pertanyaan
-            <input type="radio" name="jenis_pesan" value="Saran" /> Saran
-            <input type="radio" name="jenis_pesan" value="Lainnya" /> Lainnya
-          </td>
-        </tr>
-        <tr>
-          <td class="label"><strong>Pesan:</strong></td>
-          <td class="textarea">
-            <textarea name="pesan" rows="5" style="width: 95%"></textarea>
-          </td>
-        </tr>
-        <tr>
-          <td class="label"><strong>Salinan Pesan:</strong></td>
-          <td class="input">
-            <input type="checkbox" name="salinan_pesan" value="ya" /> Kirim
-            salinan pesan ke email saya
-          </td>
-        </tr>
-        <tr>
-          <td colspan="2" style="text-align: center; padding: 8px">
-            <input type="submit" value="Kirim Pesan" />
-            <input type="reset" value="Reset" />
-          </td>
-        </tr>
-      </table>
-  </form>
-    <hr />
-    <a href="My-Journey.html">Yuk liat journey saya!</a>
-    <a href="index.html">Kembali ke Home</a>
-    <p>© 2026 Putri Ayu Nabilah.</p>
+    <section id="contact">
+      <div class="contact-content">
+        <h2>Informasi Kontak</h2>
+
+        <p>
+          Jika Anda ingin berdiskusi atau bekerja sama, silakan hubungi saya
+          melalui form berikut.
+        </p>
+
+        <p>
+          Anda juga dapat mengirim email ke
+          <a
+            href="https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=putri.ayu@student.upi.edu"
+          >
+            putri.ayu@student.upi.edu
+          </a>
+        </p>
+
+        <h2>Form Pesan</h2>
+
+        <form>
+          <table border="1" class="form-kontak">
+            <tr>
+              <th colspan="2">Form Data Kontak</th>
+            </tr>
+
+            <tr>
+              <td class="label">
+                <strong>Nama Lengkap:</strong>
+              </td>
+              <td>
+                <input type="text" name="nama_lengkap" />
+              </td>
+            </tr>
+
+            <tr>
+              <td class="label">
+                <strong>Email:</strong>
+              </td>
+              <td>
+                <input type="email" name="email" />
+              </td>
+            </tr>
+
+            <tr>
+              <td class="label">
+                <strong>Nomor Telepon:</strong>
+              </td>
+              <td>
+                <input type="tel" name="nomor_telepon" />
+              </td>
+            </tr>
+
+            <tr>
+              <td class="label">
+                <strong>Jenis Kelamin:</strong>
+              </td>
+              <td>
+                <input type="radio" name="jenis_kelamin" value="Laki-laki" />
+                Laki-laki
+
+                <input type="radio" name="jenis_kelamin" value="Perempuan" />
+                Perempuan
+              </td>
+            </tr>
+
+            <tr>
+              <td class="label">
+                <strong>Tanggal Lahir:</strong>
+              </td>
+              <td>
+                <input type="date" name="tanggal_lahir" />
+              </td>
+            </tr>
+
+            <tr>
+              <td class="label">
+                <strong>Topik Pesan:</strong>
+              </td>
+              <td>
+                <select name="topik_pesan">
+                  <option value="Diskusi">Diskusi</option>
+                  <option value="Pertanyaan">Pertanyaan</option>
+                  <option value="Kerjasama">Kerjasama</option>
+                </select>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="label">
+                <strong>Jenis Pesan:</strong>
+              </td>
+              <td>
+                <input type="radio" name="jenis_pesan" value="Pertanyaan" />
+                Pertanyaan
+
+                <input type="radio" name="jenis_pesan" value="Saran" />
+                Saran
+
+                <input type="radio" name="jenis_pesan" value="Lainnya" />
+                Lainnya
+              </td>
+            </tr>
+
+            <tr>
+              <td class="label">
+                <strong>Pesan:</strong>
+              </td>
+              <td>
+                <textarea name="pesan" rows="5"></textarea>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="label">
+                <strong>Salinan Pesan:</strong>
+              </td>
+              <td>
+                <input type="checkbox" name="salinan_pesan" value="ya" />
+                Kirim salinan pesan ke email saya
+              </td>
+            </tr>
+
+            <tr>
+              <td colspan="2" class="tombol-form">
+                <input type="submit" value="Kirim Pesan" />
+                <input type="reset" value="Reset" />
+              </td>
+            </tr>
+          </table>
+        </form>
+
+        <hr />
+
+        <div class="link-bawah">
+          <a href="My-Journey.html">Yuk liat journey saya!</a>
+          <a href="index.html">Kembali ke Home</a>
+        </div>
+      </div>
+    </section>
+
+    <p class="copyright">© 2026 Putri Ayu Nabilah.</p>
   </body>
 </html>
